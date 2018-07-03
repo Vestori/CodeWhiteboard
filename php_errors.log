@@ -1,0 +1,6 @@
+[08-Jun-2018 03:05:48 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/Test/sqltest.php on line 6
+[28-Jun-2018 01:13:39 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/ubuntu/workspace/chat/db.php on line 11
+[28-Jun-2018 01:13:39 UTC] PHP Stack trace:
+[28-Jun-2018 01:13:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/chat/login.php:0
+[28-Jun-2018 01:13:39 UTC] PHP   2. include() /home/ubuntu/workspace/chat/login.php:3
+[28-Jun-2018 01:13:39 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/chat/db.php:11
